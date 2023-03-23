@@ -18,6 +18,7 @@ function Tile(props: IProps) {
             alt={tile.name}
             width={30}
             height={30}
+            unoptimized
           ></Image>
         </div>
         <div>
