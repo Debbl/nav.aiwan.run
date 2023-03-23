@@ -3,10 +3,10 @@ const NAV_DATA = [
     name: "React",
     children: [
       {
-        name: "react",
-        favicon: "",
-        link: "",
-        description: "",
+        name: "React",
+        favicon: "https://react.dev/favicon.ico",
+        link: "https://react.dev/",
+        description: "The library for web and native user interfaces",
       },
     ],
   },
@@ -14,10 +14,10 @@ const NAV_DATA = [
     name: "Vue",
     children: [
       {
-        name: "vue",
-        favicon: "",
-        link: "",
-        description: "",
+        name: "Vue",
+        favicon: "https://vuejs.org/logo.svg",
+        link: "https://vuejs.org/",
+        description: "The Progressive JavaScript Framework",
       },
     ],
   },

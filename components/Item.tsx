@@ -15,11 +15,13 @@ interface IProps {
 function Item(props: IProps) {
   const { item } = props;
   return (
-    <div>
+    <div className="mt-3">
       <h1>{item.name}</h1>
-      {item.children.map((tile) => (
-        <Tile tile={tile} key={tile.link} />
-      ))}
+      <div className="mt-3">
+        {item.children.map((tile) => (
+          <Tile tile={tile} key={tile.link} />
+        ))}
+      </div>
     </div>
   );
 }
