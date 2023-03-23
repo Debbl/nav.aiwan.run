@@ -10,7 +10,7 @@ interface IProps {
 function Tile(props: IProps) {
   const { tile } = props;
   return (
-    <div className="border-2 inline-block p-2 w-80 rounded-xl hover:scale-105">
+    <div className="inline-block w-80 rounded-xl border-2 p-2 hover:scale-105">
       <a title={tile.name} href={tile.link} className="flex items-center gap-3">
         <div>
           <Image

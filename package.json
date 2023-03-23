@@ -2,7 +2,7 @@
   "name": "nav.aiwan.run",
   "version": "0.1.0",
   "private": true,
-  "author": "Debbl <me@aiwan.run>",
+  "author": "Debbl <me@aiwan.run> (https://github.com/Debbl)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@debbl/eslint-config-prettier": "^0.0.33",
     "@debbl/eslint-config-react": "^0.0.33",
+    "@debbl/eslint-config-tailwindcss": "^0.0.37",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
