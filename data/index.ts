@@ -57,5 +57,34 @@ const NAV_DATA = [
       },
     ],
   },
+  {
+    name: "Bundler",
+    children: [
+      {
+        name: "Rollup",
+        favicon: "https://rollupjs.org/favicon.png",
+        link: "https://rollupjs.org/",
+        description: "The JavaScript module bundler",
+      },
+      {
+        name: "Webpack",
+        favicon: "https://webpack.js.org/icon_180x180.png",
+        link: "https://webpack.js.org/",
+        description: "Bundle all",
+      },
+      {
+        name: "Vite",
+        favicon: "https://vitejs.dev/logo.svg",
+        link: "https://vitejs.dev/",
+        description: "Next Generation Frontend Tooling",
+      },
+      {
+        name: "Gulp",
+        favicon: "https://gulpjs.com/img/gulp-2x.png",
+        link: "https://gulpjs.com/",
+        description: "A toolkit to automate & enhance your workflow",
+      },
+    ],
+  },
 ];
 export default NAV_DATA;

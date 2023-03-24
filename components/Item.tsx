@@ -17,7 +17,7 @@ function Item(props: IProps) {
   return (
     <div className="mt-6">
       <h1 className="text-xl font-medium">{item.name}</h1>
-      <div className="mt-3 flex items-center gap-2">
+      <div className="mt-3 grid grid-cols-3 items-center gap-2">
         {item.children.map((tile) => (
           <Tile tile={tile} key={tile.link} />
         ))}
