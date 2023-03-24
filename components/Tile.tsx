@@ -17,7 +17,13 @@ function Tile(props: IProps) {
         className="flex h-full w-full items-center gap-3"
       >
         <div className="w-[30px] shrink-0 overflow-hidden rounded-sm">
-          <Image src={tile.favicon} alt={tile.name} width={30} height={30} />
+          <Image
+            src={tile.favicon}
+            alt={tile.name}
+            width={30}
+            height={30}
+            unoptimized
+          />
         </div>
         <div>
           <h2>{tile.name}</h2>
