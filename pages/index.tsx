@@ -22,8 +22,8 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h2>MDN</h2>
-                <p className="text-gray-500">
+                <h2 className="text-left">MDN</h2>
+                <p className="text-left text-gray-500">
                   Resources for Developers, by Developers
                 </p>
               </div>
