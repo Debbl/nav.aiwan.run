@@ -10,16 +10,14 @@ interface IProps {
 function Tile(props: IProps) {
   const { tile } = props;
   return (
-    <div className="inline-block w-80 rounded-xl border-2 p-2">
-      <a title={tile.name} href={tile.link} className="flex items-center gap-3">
-        <div>
-          <Image
-            src={tile.favicon}
-            alt={tile.name}
-            width={30}
-            height={30}
-            unoptimized
-          ></Image>
+    <div className="inline-block h-24 w-80 rounded-xl border-2 px-2">
+      <a
+        title={tile.name}
+        href={tile.link}
+        className="flex h-full w-full items-center gap-3"
+      >
+        <div className="w-[30px] shrink-0 overflow-hidden rounded-sm">
+          <Image src={tile.favicon} alt={tile.name} width={30} height={30} />
         </div>
         <div>
           <h2>{tile.name}</h2>

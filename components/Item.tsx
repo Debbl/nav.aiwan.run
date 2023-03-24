@@ -15,9 +15,9 @@ interface IProps {
 function Item(props: IProps) {
   const { item } = props;
   return (
-    <div className="mt-3">
-      <h1>{item.name}</h1>
-      <div className="mt-3">
+    <div className="mt-6">
+      <h1 className="text-xl font-medium">{item.name}</h1>
+      <div className="mt-3 flex items-center gap-2">
         {item.children.map((tile) => (
           <Tile tile={tile} key={tile.link} />
         ))}
