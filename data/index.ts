@@ -14,6 +14,12 @@ const NAV_DATA = [
         link: "https://reactrouter.com/",
         description: "Declarative routing for React",
       },
+      {
+        name: "Redux",
+        favicon: "https://redux.js.org/img/favicon/favicon.ico",
+        link: "https://redux.js.org/",
+        description: "A Predictable State Container for JS Apps",
+      },
     ],
   },
   {
@@ -24,6 +30,18 @@ const NAV_DATA = [
         favicon: "https://vuejs.org/logo.svg",
         link: "https://vuejs.org/",
         description: "The Progressive JavaScript Framework",
+      },
+      {
+        name: "Vue Router",
+        favicon: "https://router.vuejs.org/logo.svg",
+        link: "https://router.vuejs.org/",
+        description: "The official Router for Vue.js",
+      },
+      {
+        name: "Pinia",
+        favicon: "https://pinia.vuejs.org/logo.svg",
+        link: "https://pinia.vuejs.org/",
+        description: "The intuitive store for Vue.js",
       },
     ],
   },
