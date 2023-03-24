@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Footer from "~/components/Footer";
 import Item from "~/components/Item";
 import NAV_DATA from "~/data";
 
@@ -34,6 +35,8 @@ export default function Home() {
         {NAV_DATA.map((item) => (
           <Item item={item} key={item.name} />
         ))}
+
+        <Footer />
       </div>
     </div>
   );
