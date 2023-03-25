@@ -20,6 +20,7 @@ export default function Home() {
                   alt="MDN"
                   width={30}
                   height={30}
+                  unoptimized
                 />
               </div>
               <div>
