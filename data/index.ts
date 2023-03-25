@@ -15,6 +15,12 @@ const NAV_DATA = [
         link: "https://gchq.github.io/CyberChef/",
         description: "The Cyber Swiss Army Knife",
       },
+      {
+        name: "Iconify",
+        favicon: "https://avatars.githubusercontent.com/u/50354982?s=200",
+        link: "https://iconify.design/",
+        description: "Universal icon framework.",
+      },
     ],
   },
   {
