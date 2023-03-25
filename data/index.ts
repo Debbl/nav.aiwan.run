@@ -1,5 +1,16 @@
 const NAV_DATA = [
   {
+    name: "Tools",
+    children: [
+      {
+        name: "transform",
+        favicon: "https://transform.tools/static/favicon.png",
+        link: "https://transform.tools/",
+        description: "A polyglot web converter.",
+      },
+    ],
+  },
+  {
     name: "React",
     children: [
       {
