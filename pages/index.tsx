@@ -6,7 +6,7 @@ import NAV_DATA from "~/data";
 export default function Home() {
   return (
     <div className="mt-12">
-      <div className="mx-auto w-[61rem]">
+      <div className="mx-auto">
         <div className="text-center">
           <div className="inline-block h-24 w-96 rounded-xl border-2 px-2">
             <a
