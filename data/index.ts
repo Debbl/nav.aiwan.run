@@ -58,6 +58,29 @@ const NAV_DATA = [
     ],
   },
   {
+    name: "Solid",
+    children: [
+      {
+        name: "Solidjs",
+        favicon: "https://www.solidjs.com/img/favicons/favicon-32x32.png",
+        link: "https://www.solidjs.com/",
+        description:
+          "Simple and performant reactivity for building user interfaces.",
+      },
+    ],
+  },
+  {
+    name: "Svelte",
+    children: [
+      {
+        name: "Svelte",
+        favicon: "https://svelte.dev/favicon.png",
+        link: "https://svelte.dev/",
+        description: "Cybernetically enhanced web apps",
+      },
+    ],
+  },
+  {
     name: "CSS",
     children: [
       {
