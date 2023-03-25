@@ -8,6 +8,13 @@ const NAV_DATA = [
         link: "https://transform.tools/",
         description: "A polyglot web converter.",
       },
+      {
+        name: "CyberChef",
+        favicon:
+          "https://gchq.github.io/CyberChef/assets/aecc661b69309290f600.ico",
+        link: "https://gchq.github.io/CyberChef/",
+        description: "The Cyber Swiss Army Knife",
+      },
     ],
   },
   {
