@@ -20,6 +20,12 @@ const NAV_DATA = [
         link: "https://redux.js.org/",
         description: "A Predictable State Container for JS Apps",
       },
+      {
+        name: "aHooks",
+        favicon: "https://ahooks.js.org/simple-logo.svg",
+        link: "https://ahooks.js.org/",
+        description: "A high-quality & reliable React Hooks library",
+      },
     ],
   },
   {
@@ -42,6 +48,12 @@ const NAV_DATA = [
         favicon: "https://pinia.vuejs.org/logo.svg",
         link: "https://pinia.vuejs.org/",
         description: "The intuitive store for Vue.js",
+      },
+      {
+        name: "VueUse",
+        favicon: "https://vueuse.org/favicon.svg",
+        link: "https://vueuse.org/",
+        description: "Collection of Essential Vue Composition Utilities",
       },
     ],
   },
