@@ -12,7 +12,7 @@ export default function Home() {
             <a
               title="MDN"
               href="https://developer.mozilla.org/zh-CN/"
-              className="flex h-full w-full items-center gap-3"
+              className="flex size-full items-center gap-3"
             >
               <div className="w-[30px] shrink-0 overflow-hidden rounded-sm">
                 <Image
