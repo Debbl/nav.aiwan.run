@@ -3,6 +3,12 @@ const NAV_DATA = [
     name: "Tools",
     children: [
       {
+        name: "jsoncrack",
+        favicon: "https://jsoncrack.com/favicon.ico",
+        link: "https://jsoncrack.com/editor",
+        description: "A json visualization and editor.",
+      },
+      {
         name: "transform",
         favicon: "https://transform.tools/static/favicon.png",
         link: "https://transform.tools/",
