@@ -11,7 +11,7 @@ function Footer() {
         href="https://dokidokiweb.com/"
         target="_blank"
         rel="noreferrer"
-        className="fixed right-2 bottom-0 opacity-0 hover:opacity-100"
+        className="fixed bottom-0 right-2 opacity-0 hover:opacity-100"
       >
         tool
       </a>

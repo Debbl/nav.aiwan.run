@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 interface IProps {
   tile: {
     name: string;
@@ -14,7 +15,7 @@ function Tile(props: IProps) {
       <a
         title={tile.name}
         href={tile.link}
-        className="flex h-full w-full items-center gap-3"
+        className="flex size-full items-center gap-3"
       >
         <div className="w-[30px] shrink-0 overflow-hidden rounded-sm">
           <Image
