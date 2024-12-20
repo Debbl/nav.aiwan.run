@@ -3,7 +3,7 @@ import Footer from "~/components/Footer";
 import Item from "~/components/Item";
 import NAV_DATA from "~/data";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="mt-12">
       <div className="mx-auto">
