@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="flex items-center justify-center py-6">
       <a href="https://github.com/Debbl/nav.aiwan.run">
-        <Image src={GithubIcon} alt="" unoptimized></Image>
+        <Image src={GithubIcon} alt="" unoptimized />
       </a>
       <a
         href="https://dokidokiweb.com/"

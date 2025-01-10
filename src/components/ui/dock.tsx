@@ -41,7 +41,7 @@ const Dock = ({
     return React.Children.map(children, (child) => {
       if (React.isValidElement(child) && child.type === DockIcon) {
         return React.cloneElement(child, {
-          ...child.props,
+          ...(child as any).props,
           mouseX,
           size: iconSize,
           magnification: iconMagnification,
