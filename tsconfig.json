@@ -4,10 +4,11 @@
     "target": "ES5",
     "jsx": "preserve",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "node",
     "paths": {
-      "~/*": ["./*"]
+      "~/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "allowJs": true,

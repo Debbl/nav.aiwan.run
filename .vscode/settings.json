@@ -1,3 +1,20 @@
 {
-  "eslint.useFlatConfig": true
+  "eslint.useFlatConfig": true,
+  // do not want to autofix some rules on save
+  "eslint.codeActionsOnSave.rules": [
+    "!prefer-const",
+    "!unused-imports/no-unused-imports",
+    "*"
+  ],
+  "cSpell.words": [
+    "frontmatter",
+    "magicui",
+    "mdast",
+    "precache",
+    "rehype",
+    "serwist",
+    "shadcn",
+    "shiki"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
